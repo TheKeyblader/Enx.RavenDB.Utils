@@ -3,6 +3,7 @@
 Utility helpers and extensions for the [RavenDB](https://ravendb.net/) .NET client.
 
 [![CI](https://github.com/TheKeyblader/Enx.RavenDB.Utils/actions/workflows/ci.yml/badge.svg)](https://github.com/TheKeyblader/Enx.RavenDB.Utils/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/TheKeyblader/Enx.RavenDB.Utils/branch/main/graph/badge.svg)](https://codecov.io/gh/TheKeyblader/Enx.RavenDB.Utils)
 [![NuGet](https://img.shields.io/nuget/v/Enx.RavenDB.Utils.svg)](https://www.nuget.org/packages/Enx.RavenDB.Utils/)
 
 ## Installation
