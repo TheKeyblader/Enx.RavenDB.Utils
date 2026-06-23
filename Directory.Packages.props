@@ -1,0 +1,27 @@
+<Project>
+
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <!-- Library dependencies -->
+  <ItemGroup Label="App Dependencies">
+    <PackageVersion Include="RavenDB.Client" Version="7.2.4" />
+  </ItemGroup>
+
+  <!-- Build / tooling dependencies -->
+  <ItemGroup Label="Build Dependencies">
+    <PackageVersion Include="Meziantou.Polyfill" Version="1.0.153" />
+    <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="8.0.0" />
+  </ItemGroup>
+
+  <!-- Test dependencies -->
+  <ItemGroup Label="Test Dependencies">
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+    <PackageVersion Include="RavenDB.TestDriver" Version="7.2.4" />
+    <PackageVersion Include="xunit" Version="2.9.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.0.2" />
+    <PackageVersion Include="coverlet.collector" Version="6.0.4" />
+  </ItemGroup>
+
+</Project>

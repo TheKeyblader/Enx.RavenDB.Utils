@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/build/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path="NuGet.Config" />
+    <File Path="README.md" />
+    <File Path="RELEASE_NOTES.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Enx.RavenDB.Utils/Enx.RavenDB.Utils.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Enx.RavenDB.Utils.Tests/Enx.RavenDB.Utils.Tests.csproj" />
+  </Folder>
+</Solution>
